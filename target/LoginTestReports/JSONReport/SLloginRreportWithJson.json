@@ -1,0 +1,84 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-10-06T12:53:39.299Z",
+        "line": 2,
+        "name": "To check login Successful with valid credentials",
+        "description": "",
+        "id": "to-check-login-functionality-of-swaglabs;to-check-login-successful-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1235401900,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Browser is launching",
+            "match": {
+              "location": "StepDefinition.SwagLabsTest.browser_is_launching()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2625521300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is in swaglabs login page",
+            "match": {
+              "location": "StepDefinition.SwagLabsTest.user_is_in_swaglabs_login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2093046600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters the user name",
+            "match": {
+              "location": "StepDefinition.SwagLabsTest.user_enters_the_user_name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2092397000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "enters password",
+            "match": {
+              "location": "StepDefinition.SwagLabsTest.enters_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4335191700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is navigated to the swaglabs homepage",
+            "match": {
+              "location": "StepDefinition.SwagLabsTest.user_is_navigated_to_the_swaglabs_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To check Login functionality of SwagLabs",
+    "description": "",
+    "id": "to-check-login-functionality-of-swaglabs",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/Features/SwagLabsLogin.feature",
+    "tags": []
+  }
+]
